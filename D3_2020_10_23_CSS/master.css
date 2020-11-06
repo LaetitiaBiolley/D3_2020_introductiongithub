@@ -1,0 +1,59 @@
+/*
+padding:
+On applique la même valeur aux quatre côtés
+padding: 1em;
+
+vertical | horizontal
+padding: 5% 10%;
+
+haut | horizontal | bas
+padding: 1em 2em 2em;
+
+haut | droit | bas | gauche
+padding: 5px 1em 0 2em;
+
+Valeurs globales
+padding: inherit;
+padding: initial;
+padding: unset;
+*/
+section{
+min-height: 200vh;
+}
+
+#section01 {
+  background: url('css/images/thelion.jpg') no-repeat top center;
+  background-size: cover;
+  background-attachment: flex;
+  display: fixed;
+  justify-content: top;
+  align-items: top;
+  padding-top: 30px
+}
+#section01 h1 {
+  color: #fff;
+  font-size: 4em;
+  text-align: top left;
+  padding : 5% 55% 5% 5%;
+  display: fixed;
+
+}
+
+h2 {
+font-size: 100%;
+justify-content: left;
+display: block;
+align-items: left;
+text-align: left;
+border: 1 px solid rgb(255, 255, 255);
+  margin: 1em;
+  background-attachment: fixed: #fff;
+  padding : 3% 60% 3% 3%;
+  border : 1em;
+background-size: 400px;
+}
+
+h3 {
+font-size: 80%;
+justify-content: left;
+}
