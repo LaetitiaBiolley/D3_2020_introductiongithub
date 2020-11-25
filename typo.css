@@ -8,6 +8,16 @@ h1 {
   margin-top: 0.5em;
   margin-bottom: 1.5em;
 }
-P {
+p {
   margin-bottom: 1em;
+}
+
+
+h3{
+font-family: 'Abril Fatface', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Xanh+Mono:ital@1&display=swap');
+h4{
+  font-family: 'Xanh Mono', monospace;
 }
